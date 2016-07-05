@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GroupingTestSuite" duration-ms="135738" started-at="2016-07-04T13:23:12Z" finished-at="2016-07-04T13:25:27Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="2812" started-at="2016-07-04T13:23:12Z" finished-at="2016-07-04T13:23:15Z">
+      <class name="org.gradle.GroupingTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@1dde4cb2]" name="beforeTest" is-config="true" duration-ms="1814" started-at="2016-07-04T16:23:12Z" finished-at="2016-07-04T16:23:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.gradle.GroupingTests@1dde4cb2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:23:14Z" finished-at="2016-07-04T16:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="ChooseOneColumn(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@1dde4cb2]" name="ChooseOneColumn" duration-ms="0" started-at="2016-07-04T16:23:14Z" finished-at="2016-07-04T16:23:14Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'column' is required by @Test on method ChooseOneColumn but has not been marked @Optional or defined
+in C:\Users\sharon.amir\Documents\workspace-sts-3.7.3.RELEASE\UiGridTestsGradleProject\src\test\java\org\gradle\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'column' is required by @Test on method ChooseOneColumn but has not been marked @Optional or defined
+in C:\Users\sharon.amir\Documents\workspace-sts-3.7.3.RELEASE\UiGridTestsGradleProject\src\test\java\org\gradle\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseOneColumn -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.gradle.GroupingTests@1dde4cb2]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:23:14Z" finished-at="2016-07-04T16:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.gradle.GroupingTests@1dde4cb2]" name="afterTest" is-config="true" duration-ms="974" started-at="2016-07-04T16:23:14Z" finished-at="2016-07-04T16:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.gradle.GroupingTests -->
+    </test> <!-- ChromeTest -->
+    <test name="ChooseOneColumn1" duration-ms="83766" started-at="2016-07-04T13:23:15Z" finished-at="2016-07-04T13:24:38Z">
+      <class name="org.gradle.GroupingTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="beforeTest" is-config="true" duration-ms="1291" started-at="2016-07-04T16:23:15Z" finished-at="2016-07-04T16:23:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:23:16Z" finished-at="2016-07-04T16:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-04T16:23:16Z" finished-at="2016-07-04T16:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ChooseOneColumn(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="ChooseOneColumn" duration-ms="81429" started-at="2016-07-04T16:23:16Z" finished-at="2016-07-04T16:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseOneColumn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-04T16:24:37Z" finished-at="2016-07-04T16:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:24:37Z" finished-at="2016-07-04T16:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.gradle.GroupingTests@694abbdc]" name="afterTest" is-config="true" duration-ms="1026" started-at="2016-07-04T16:24:37Z" finished-at="2016-07-04T16:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.gradle.GroupingTests -->
+    </test> <!-- ChooseOneColumn1 -->
+    <test name="ChooseOneColumn2" duration-ms="25400" started-at="2016-07-04T13:24:38Z" finished-at="2016-07-04T13:25:04Z">
+      <class name="org.gradle.GroupingTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="beforeTest" is-config="true" duration-ms="1448" started-at="2016-07-04T16:24:38Z" finished-at="2016-07-04T16:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-07-04T16:24:40Z" finished-at="2016-07-04T16:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-04T16:24:40Z" finished-at="2016-07-04T16:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ChooseOneColumn(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="ChooseOneColumn" duration-ms="22424" started-at="2016-07-04T16:24:40Z" finished-at="2016-07-04T16:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brand]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseOneColumn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="afterTest" is-config="true" duration-ms="1525" started-at="2016-07-04T16:25:02Z" finished-at="2016-07-04T16:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:02Z" finished-at="2016-07-04T16:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.gradle.GroupingTests@1fa268de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:02Z" finished-at="2016-07-04T16:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.gradle.GroupingTests -->
+    </test> <!-- ChooseOneColumn2 -->
+    <test name="ChooseOneColumn3" duration-ms="23721" started-at="2016-07-04T13:25:04Z" finished-at="2016-07-04T13:25:27Z">
+      <class name="org.gradle.GroupingTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2016-07-04T16:23:12Z" finished-at="2016-07-04T16:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="beforeTest" is-config="true" duration-ms="2051" started-at="2016-07-04T16:25:04Z" finished-at="2016-07-04T16:25:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:06Z" finished-at="2016-07-04T16:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:06Z" finished-at="2016-07-04T16:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ChooseOneColumn(java.lang.String)[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="ChooseOneColumn" duration-ms="20262" started-at="2016-07-04T16:25:06Z" finished-at="2016-07-04T16:25:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Year]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseOneColumn -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:26Z" finished-at="2016-07-04T16:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:26Z" finished-at="2016-07-04T16:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="afterTest" is-config="true" duration-ms="1405" started-at="2016-07-04T16:25:26Z" finished-at="2016-07-04T16:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.gradle.GroupingTests@4fb0f2b9]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-07-04T16:25:27Z" finished-at="2016-07-04T16:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.gradle.GroupingTests -->
+    </test> <!-- ChooseOneColumn3 -->
+  </suite> <!-- GroupingTestSuite -->
+</testng-results>

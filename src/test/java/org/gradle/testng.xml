@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GroupingTestSuite" thread-count="1" parallel="tests">
+  <test name="ChromeTest">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+    <class name="org.gradle.GroupingTests"></class>
+    </classes>    
+  </test>
+  <test name="ChooseOneColumn1">
+    <parameter name="column" value="Vin"/>
+    <classes>
+    <class name="org.gradle.GroupingTests"></class>
+    </classes>    
+  </test>
+   <test name="ChooseOneColumn2">
+    <parameter name="column" value="Brand"/>
+    <classes>
+    <class name="org.gradle.GroupingTests"></class>
+    </classes>    
+  </test>
+   <test name="ChooseOneColumn3">
+    <parameter name="column" value="Year"/>
+    <classes>
+    <class name="org.gradle.GroupingTests"></class>
+    </classes>    
+  </test> 
+  <!--  <test name="IETest">
+    <parameter name="browser" value="IE"/>
+    <classes>
+    <class name="org.gradle.GroupingTests"></class>
+    </classes>    
+  </test>-->
+</suite> 
